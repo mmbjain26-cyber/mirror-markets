@@ -32,14 +32,12 @@ assets/og.png                   social preview image (1200x630)
 
 ## Deploy
 
-GitHub Pages serves from the `main` branch root. Settings > Pages > Source: Deploy from a branch, `main`, `/ (root)`.
-
-After the site URL is final, replace every `USERNAME.github.io/mirror-markets` placeholder in `index.html` and the pairing pages (canonical + OG tags).
+GitHub Pages serves from the `main` branch root. Settings > Pages > Source: Deploy from a branch, `main`, `/ (root)`. Live at https://mmbjain26-cyber.github.io/mirror-markets/
 
 ## Custom domain (when ready)
 
 1. Buy the domain.
 2. In the repo: Settings > Pages > Custom domain, enter the domain. GitHub creates a `CNAME` file in the repo.
-3. At the DNS provider: for an apex domain (`mirrormarkets.com`), add four A records pointing to GitHub Pages IPs (185.199.108.153, .109.153, .110.153, .111.153); for `www`, add a CNAME record pointing to `USERNAME.github.io`.
+3. At the DNS provider: for an apex domain (`mirrormarkets.com`), add four A records pointing to GitHub Pages IPs (185.199.108.153, .109.153, .110.153, .111.153); for `www`, add a CNAME record pointing to `mmbjain26-cyber.github.io`.
 4. Back in Settings > Pages, wait for the DNS check, then tick Enforce HTTPS.
 5. Update the canonical and OG URLs in every page to the new domain.
