@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
+  <rect width="64" height="64" fill="#F4F5F2"/>
+  <text x="2" y="45" font-family="Newsreader, Georgia, 'Times New Roman', serif" font-weight="500" font-size="34" fill="#171B18">M</text>
+  <g transform="translate(64 0) scale(-1 1)">
+    <text x="2" y="45" font-family="Newsreader, Georgia, 'Times New Roman', serif" font-weight="500" font-size="34" fill="#B4632A">M</text>
+  </g>
+</svg>
